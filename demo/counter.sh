@@ -49,3 +49,6 @@ done
 # Stop the timer process
 kill $TIMER_PID
 echo -e "\nTimer stopped."
+
+# capture ctrl+c to stop background timer
+trap "echo -e '\nTimer stopped by user'; kill $TIMER_PID; exit" SIGINT

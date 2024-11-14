@@ -38,3 +38,7 @@ echo "Positioned at row 10, column 20."
 # End with a message
 echo -e "\n\n"
 echo "Demo complete!"
+
+# tput cup also used to move cursor
+# Move cursor to the top-left and print time remaining
+tput cup 0 0
