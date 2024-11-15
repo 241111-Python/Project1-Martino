@@ -1,5 +1,7 @@
 #!/usr/bin/bash
-
+SCRIPT_PATH=$(realpath "$0")
+SCRIPT_DIR=$(dirname "$SCRIPT_PATH")
+cd "$SCRIPT_DIR" || exit 1
 data_file="../data/game-data.log"
 stats_file="../data/stats.log"
 source "./library.sh"
