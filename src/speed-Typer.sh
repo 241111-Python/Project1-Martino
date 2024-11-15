@@ -3,7 +3,8 @@
 #setup variables and load the words list
 
 function setUp() {
-    config_file="../config.cfg"
+    script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+    config_file="$script_dir/../config.cfg"
     if [[ -f "$config_file" ]]; then
         source "$config_file"
     else
