@@ -1,3 +1,4 @@
 user_name, score, [(target_word, typed_word, time_spent, correctness)]
 martino, 3, [(d, d, 0.900,true), (b, b, 0.584,true), (e, d, 0.578,false), (b, d, 0.584,false), (c, c, 0.682,true)]
 aaaaaaaaa, 2, [(d, d, 0.900,true), (b, b, 0.584,true), (e, d, 0.578,false), (b, d, 0.584,false), (c, c, 0.682,true)]
+Martino Kim, 4, [(agog, agog, 5.520,true), (annunciable, aannunccc, 16.107,false), (apheta, aphetaiable, 8.534,false), (aurigo, aurigoiable, 9.870,false), (amission, amissionable, 3.087,false)]
